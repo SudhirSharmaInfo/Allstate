@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allstate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="navbar-section">
+        <div class="navbar-section-res">
+            <div class="navbar-img"><i class="fa-solid fa-house-chimney"></i> <span>Allstate</span></div>
+            <div class="navbar-right-side">
+                <div class="nav-call-section">
+                    <div><i class="fa-solid fa-phone-volume"></i> Call us</div>
+                    <div>+91-99 11 77 23 84</div>
+                </div>
+                <div onclick="form()" class="nav-log-section" >
+                    <span>Log In</span>
+                    <i class="fa-regular fa-user" onclick="form()"></i>
+                </div>
+                <div class="hamburger" onclick="ham()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="hamburger-content" id="hamburger-content">
+                    <div class="hum-close-icon"><img src="image/close icon.png" alt="error" onclick="hamclose()"></div>
+                    <div class="hum-li-box">
+                        <li class="hum-li"><a href="#">Home</a></li>
+                        <li class="hum-li"><a href="#">About Us</a></li>
+                        <li class="hum-li"><a href="#">Properties</a></li>
+                        <li class="hum-li"><a href="#">Services</a></li>
+                        <li class="hum-li"><a href="#">Contact Us</a></li>
+                    </div>
+                    <div class="ham-social-icon">
+                        <div class="ham-social-icon-res">
+                            <i class="fa-brands fa-facebook-f facebook"></i>
+                            <i class="fa-brands fa-instagram instagram"></i>
+                            <i class="fa-brands fa-linkedin-in linkdin"></i>
+                            <i class="fa-brands fa-youtube youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="home-section">
+        <div class="home-section-res">
+            <div>Finding Your New Home Is Simple</div>
+            <span>Allstate.com is your go to destination for finding the perfect buying home to suit your needs. With
+                thousand of property listing across the India. </span>
+
+            <form action="#" class="home-section-search">
+                <input type="email" placeholder="Enter your Email">
+                <button type="submit" class="home-submit-button">Get a Quote <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="properties-section">
+        <div class="properties-section-res">
+            <h1>Most Viewed</h1>
+            <span>Discover some of the top-listed properties on our website.</span>
+            <div class="properties-section-item">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="work-section">
+        <div class="work-section-res">
+            <h1>Our Work In 3 Steps</h1>
+            <span>Discover a range of vacation homes worldwide, Book securely and get expert customer support for
+                stress-free stay</span>
+            <div class="work-section-box">
+                <div class="work-section-item">
+                    <i class="fa-solid fa-house-user"></i>
+                    <h3>Research Phase</h3>
+                    <span>Find your dream house in just a few clicks.</span>
+                </div>
+                <div class="work-section-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3>Close the deal</h3>
+                    <span>Finalize your house booking with ease and peace of mind. Book now and enjoy your stay.</span>
+                </div>
+                <div class="work-section-item">
+                    <i class="fa-solid fa-key"></i>
+                    <h3>Key delivery</h3>
+                    <span>Our simple key delivery system makes checking in to your home a breeze.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="service-section">
+        <div class="service-section-res">
+            <div class="service-left-section"><img src="image/service.jpeg" alt="error"></div>
+            <div class="service-right-section">
+                <span>Our Services</span>
+                <h1>And here's how? We do insurance better</h1>
+                <div class="service-li"><i class="fa-regular fa-circle-check"></i> Save an average of $250 per year
+                </div>
+                <div class="service-li"><i class="fa-regular fa-circle-check"></i> File a claim in 3 minutes</div>
+                <div class="service-li"><i class="fa-regular fa-circle-check"></i> Easily manage your policy online
+                </div>
+                <div class="service-li"><i class="fa-regular fa-circle-check"></i> Skip the faxing, long pagework &
+                    unnecessary phone calls</div>
+                <div class="service-li"><i class="fa-regular fa-circle-check"></i> Get support from our team</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="about-section">
+        <div class="about-section-res">
+            <div class="about-section-left">
+                <h1>About <br>Allstate.</h1>
+                <span>
+                    Allstate is a new age digital platform that aims to change the way resale transactions are done.
+                    Sellers & Buyers can now avoid the long & tedious traditional process and conclude the transaction
+                    at the best price, at the click of a button.
+                    Our platform offers seamless and direct flow of information to all stakeholders, thereby bringing
+                    complete transparency and trust.
+                </span>
+                <div class="about-section-button">
+                    <button>Contact Us <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="about-section-right"><img src="image/about 1.jpeg" alt="error"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer-section" id="contact-page">
+        <div class="footer-section-res">
+            <div class="footer-section-top">
+                <div class="footer-brand">
+                    <div class="footer-img"><i class="fa-solid fa-house-chimney"></i> <span>Allstate</span></div>
+                    <p>
+                        All state aims to revolutionize the residential resale transactions by making them transparent,
+                        simple, and quick. <br>
+                        You can now skip the complicated and unnecessary steps and sell your apartment at the best price
+                        with instant payment.
+                    </p>
+
+                </div>
+
+                <div class="footer-links-section">
+                    <!-- Links Section -->
+                    <div class="footer-box1">
+                        <h4>About</h4>
+                        <div class="item-box1">
+                            <li><a href="#">Deals</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </div>
+                    </div>
+
+                    <!-- Links Section -->
+                    <div class="footer-box2">
+                        <h4>Helpful Links</h4>
+                        <div class="item-box2">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Agent Login</a></li>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="footer-contact">
+                    <h4>Newsletter</h4>
+                    <p> Sign up for new updates </p>
+                    <form action="#" class="footer-section-search">
+                        <input type="email" placeholder="Enter your Email">
+                        <button type="submit" class="home-submit-button">Submit <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" class="social-icons-anc"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram" class="social-icons-anc"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter" class="social-icons-anc"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Twitter" class="social-icons-anc"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>Copyright, Allstate 2024. All rights reserved.</p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <div class="form-section" id="form-section">
+        <div class="form-section-res">
+            <div class="form-left-section">
+                <h1>Log In</h1>
+                <span class="form-span1">Please log in to your <b>Allstate</b> account.</span>
+                <h5>Please Verify your Mobile Number</h5>
+                <form action="#" class="form-section-search">
+                    +91   |  <input type="email" placeholder="Enter your Phone Number">
+                    <button type="submit" class="form-submit-button">Get OTP <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </form>
+
+                <span class="form-span2">Or</span>
+                <button class="google-btn"><i class="fab fa-google"></i>Login with Gmail</button>
+                <button class="facebook-btn"><i class="fab fa-facebook"></i>Login with Facebook</button>
+            </div>
+            
+            <i class="fa-solid fa-xmark formxmark" onclick="formclose()"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
